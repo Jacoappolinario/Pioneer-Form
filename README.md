@@ -1,15 +1,19 @@
 # Pioneer Manager
 
-### 📝Sobre
+## 📝Sobre
 
 Projeto que tem como objetivo criar uma plataforma que auxilie na parte de gerenciamento o Clube de Desbravadores(https://www.adventistas.org/pt/desbravadores/), que é um departamento da Igreja Adventista do Sétimo Dia, que trabalha especificamente com a educação cultural, social e religiosa de crianças e adolescentes situadas na faixa etária entre 10 e 15 anos.
 
-### 🚩Pré Requisitos
+----
+
+## 🚩Pré Requisitos
 
 - [Git](https://git-scm.com/)
 - [Node](https://nodejs.org)
 
-### 📂Instalação
+----
+
+## 📂Instalação
 
 ```bash
 # Clone este repositório
@@ -25,14 +29,19 @@ $ npm install
 $ npm start
 ```
 
+----
+
 ## 🚀Tecnologias (Até o momento)
 
 - NodeJs
 - Express
 
+----
+
 ## 👨🏾‍💻Autor
 * **Jacó Apolinário** - [Linkedin](https://www.linkedin.com/in/jacoapolinario/)
 
+----
 
 ## 🧾License
 
