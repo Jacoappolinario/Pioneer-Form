@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root {
+    --primary-color: rgba(81,80,156,1); 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: rgb(155,66,218);
+    background: linear-gradient(90deg, rgba(155,66,218,1) 0%, rgba(81,80,156,1) 100%);
+}
+
+header {
+    background-color: white;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header p {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.logo {
+    cursor: pointer;
+    
+}
+
+.card {
+    background-color: white;
+    width: 800px;
+    min-height: 400px;
+
+    margin: 45px auto;
+
+
+    box-shadow: 0px 2px 6px -2px rgba(0, 0, 0, 0.4);
+
+    animation: up 200ms ease-in-out;
+}
+
+@keyframes up {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.details {
+    padding: 32px;
+}
+
+.grid {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.details .item {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 16px 0;
+}
+
+/* .details .item:last-child {
+    border: none;
+} */
+
+.details h3,
+.details .item div:nth-child(1) {
+    font-size: 14px;
+    line-height: 24px;
+    color: #777;
+    letter-spacing: 0.7px;
+    font-weight: normal;
+}
+
+.details .item div:nth-child(2) {
+    color: #555;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.details h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.details .item span {
+    padding: 8px 16px;
+    background: linear-gradient(270deg, #20D2DC 0%, #70AFF9 100%);
+    border-radius: 16px;
+    margin-right: 4px;
+    margin-top: 8px;
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+/*=== Form ===*/
+
+.button {
+    text-align: center;
+}
+
+input, select {
+    width: 95%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 14px;
+    color: #555;
+    
+}
+
+input[type="radio"] {
+    width: initial;
+    margin-right: 4px;
+}
+
+input::placeholder {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+button[type="submit"] {
+    padding: 8px 32px;
+    background: linear-gradient(270deg, #20D2DC 0%, #70AFF9 100%);
+    color: white;
+    border-radius: 4px;
+    margin-top: 32px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.sent {
+    padding: 20px;
+}
+
+.sent-image {
+    width: 400px;
+    height: 400px;
+    background: url('/assets/sent.png') no-repeat center center;
+    margin: 0 25%;
+}
+
+.sent p {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--primary-color)
+}
+
+
+
