@@ -1,8 +1,8 @@
-# Pioneer Manager
+# Pioneer Form
 
 ## 📝Sobre
 
-Projeto que tem como objetivo criar uma plataforma que auxilie na parte de gerenciamento o Clube de Desbravadores(https://www.adventistas.org/pt/desbravadores/), que é um departamento da Igreja Adventista do Sétimo Dia, que trabalha especificamente com a educação cultural, social e religiosa de crianças e adolescentes situadas na faixa etária entre 10 e 15 anos.
+Projeto que tem como objetivo auxiliar no cadastramento de novos membros no Clube de Desbravadores(https://www.adventistas.org/pt/desbravadores/), que é um departamento da Igreja Adventista do Sétimo Dia, que trabalha especificamente com a educação cultural, social e religiosa de crianças e adolescentes situadas na faixa etária entre 10 e 15 anos.
 
 ----
 
@@ -10,6 +10,7 @@ Projeto que tem como objetivo criar uma plataforma que auxilie na parte de geren
 
 - [Git](https://git-scm.com/)
 - [Node](https://nodejs.org)
+- [Postgres](https://www.postgresql.org/)
 
 ----
 
@@ -17,10 +18,10 @@ Projeto que tem como objetivo criar uma plataforma que auxilie na parte de geren
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/Jacoappolinario/Pioneer-Manager.git
+$ git clone https://github.com/Jacoappolinario/Pioneer-Form.git
 
 # Vá para o repositório
-$ cd Pioneer-Manager
+$ cd Pioneer-Form
 
 # Instalar dependências
 $ npm install
